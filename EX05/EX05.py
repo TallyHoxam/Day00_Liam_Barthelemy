@@ -11,12 +11,12 @@ def tableau():
     
     
     while tableau_deux :
-        min_nombre = min(tableau_deux)
+        min_nombre = max(tableau_deux)
         tableau_croissant.append(min_nombre)
         tableau_deux.remove(min_nombre)      
 
   
-    print("Tableau trié par ordre croissant :", tableau_croissant)
+    print("Tableau trié par ordre décroissant :", tableau_croissant)
                 
         
 
