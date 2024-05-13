@@ -1,4 +1,6 @@
 def armstrong(nombre):
+    if nombre <= 0 :
+        return 'Le nombre doit être positif'
     nombre_chaine = str(nombre)
     addition = 0
     for numero in nombre_chaine :
