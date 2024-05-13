@@ -16,7 +16,7 @@ def tableau():
         tableau_deux.remove(min_nombre)      
 
   
-    print("Tableau triÃ© par ordre croissant :", tableau_croissant)
+    print("Tableau trié par ordre croissant :", tableau_croissant)
                 
         
 
